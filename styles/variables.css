@@ -1,0 +1,8 @@
+:root {
+  --primary-color: rgb(113, 148, 224);
+  --secondary-color: #ffbcfc;
+  --background-color: #00000000;
+  --text-color: #f7f7f7;
+  --top-bar-height: 65px;
+  --screen-height: 750px;
+}

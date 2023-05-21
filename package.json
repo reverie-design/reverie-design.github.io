@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "aos": "^2.3.4",
+    "granim": "^2.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
