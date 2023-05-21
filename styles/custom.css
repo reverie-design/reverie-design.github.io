@@ -30,7 +30,7 @@
 }
 .page {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 .bg-img,
@@ -89,14 +89,14 @@
 .background-text {
   font-family: "Josefin Sans", sans-serif;
   color: var(--primary-color);
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 0;
   font-size: 12vh;
   opacity: 0.2;
   object-fit: none;
   word-wrap: break-word;
-  transform: translateY(-38%);
+  transform: translateY(-50%);
   filter: blur(20px);
   text-align: center;
   z-index: 0;
@@ -517,5 +517,8 @@ form input[type="button"]:hover {
   }
   .bottom-nav a {
     font-size: 20px;
+  }
+  .blob {
+    display: none;
   }
 }

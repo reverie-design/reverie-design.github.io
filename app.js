@@ -2,11 +2,14 @@
 function setupParallax() {
   const parallaxElements = document.querySelectorAll(".parallax");
   const onScroll = () => {
-    const scrollPosition = window.scrollY;
-    parallaxElements.forEach((element) => {
-      const speed = element.dataset.parallaxSpeed;
-      element.style.transform = `translateY(${scrollPosition * speed}px)`;
-    });
+    if (window.innerWidth > 768) {
+      console.log(window.innerWidth);
+      const scrollPosition = window.scrollY;
+      parallaxElements.forEach((element) => {
+        const speed = element.dataset.parallaxSpeed;
+        element.style.transform = `translateY(${scrollPosition * speed}px)`;
+      });
+    }
   };
   window.addEventListener("scroll", onScroll);
 }
@@ -36,9 +39,9 @@ function updateBackgroundTextAndLogoBlur() {
   const onScroll = () => {
     const scrollPosition = window.scrollY;
     const blurFactor = Math.max(0, 14 - scrollPosition / 10);
-    backgroundText.style.top = `${
-      page.clientHeight / 2.15 - scrollPosition * 0.7
-    }px`;
+    backgroundText.style.transform = `translateY(calc(${
+      scrollPosition * 0.4
+    }px - 50%))`;
     backgroundText.style.filter = `blur(${blurFactor}px)`;
     logo.style.filter = `blur(${14 - blurFactor}px)`;
   };
