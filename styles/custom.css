@@ -465,6 +465,11 @@ form input[type="button"]:hover {
   font-style: italic;
 }
 
+#website-wrapper {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .top-nav .links {
     display: none;
@@ -505,5 +510,12 @@ form input[type="button"]:hover {
 
   .hamburger-menu {
     display: block;
+  }
+
+  .bottom-nav {
+    height: 70px;
+  }
+  .bottom-nav a {
+    font-size: 20px;
   }
 }

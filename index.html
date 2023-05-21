@@ -25,150 +25,153 @@
   </head>
 
   <body>
-    <div
-      class="full-height-element full-width-element fixed"
-      style="background-color: black; z-index: -3"
-    ></div>
-    <div class="full-page-background"></div>
+    <div id="website-wrapper">
+      <div
+        class="full-height-element full-width-element fixed"
+        style="background-color: black; z-index: -3"
+      ></div>
+      <div class="full-page-background"></div>
 
-    <div class="background-effect">
-      <div class="background-text">Let's elevate your web presence.</div>
-      <div class="grainy-bg unselectable"></div>
-      <img src="assets/blob.svg" class="blob unselectable" />
-      <div class="blur-back unselectable"></div>
-    </div>
-    <div class="page" data-bgcol="rgba(0, 0, 0, 0.0)">
-      <div class="logo-container">
-        <img
-          class="logo"
-          src="assets/logo-reverie 1.png"
-          alt="Reverie Design Logo"
-        />
-        <h1 class="logo">Reverie Design</h1>
-        <p class="logo-line">Web Design and Development</p>
+      <div class="background-effect">
+        <div class="background-text">Let's elevate your web presence.</div>
+        <div class="grainy-bg unselectable"></div>
+        <img src="assets/blob.svg" class="blob unselectable" />
+        <div class="blur-back unselectable"></div>
       </div>
-    </div>
-    <div class="bottom-nav center-x" id="bottomNav">
-      <a class="contact-button" href="#">
-        <i class="fa-solid fa-message"></i>
-        <span class="link-name">Contact</span>
-      </a>
-      <a href="#about">
-        <i class="fa-solid fa-arrow-down primary-col"></i>
-        <span class="link-name primary-col">About</span>
-      </a>
-      <a href="#">
-        <i class="fa-solid fa-hand"></i>
-        <span class="link-name">Services</span>
-      </a>
-    </div>
-    <div class="top-nav" id="topNav">
-      <div class="logo">
-        <img src="assets/logo-reverie 1.png" alt="Reverie logo" />
-      </div>
-      <div class="links">
-        <a href="#top">Home</a>
-        <a href="#about">About</a>
-        <a>Services</a>
-        <a class="rounded-button-outline contact-button">Contact</a>
-      </div>
-      <div class="hamburger-menu">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-    </div>
-    <div class="mobile-links">
-      <div class="mobile-link">
-        <a href="#top">Home</a>
-      </div>
-      <div class="mobile-link">
-        <a href="#about">About</a>
-      </div>
-      <div class="mobile-link">
-        <a>Services</a>
-      </div>
-      <div class="mobile-link">
-        <a class="rounded-button-outline contact-button">Contact</a>
-      </div>
-    </div>
-
-    <div id="contact-container">
-      <div id="contact-dialog" class="white-background">
-        <div>
-          <button id="close-button">
-            <i class="fa fa-times" style="color: #000000"></i>
-          </button>
-          <br />
-          <h1 class="center-text">Let's get talking!</h1>
+      <div class="page" data-bgcol="rgba(0, 0, 0, 0.0)">
+        <div class="logo-container">
+          <img
+            class="logo"
+            src="assets/logo-reverie 1.png"
+            alt="Reverie Design Logo"
+          />
+          <h1 class="logo">Reverie Design</h1>
+          <p class="logo-line">Web Design and Development</p>
         </div>
-        <form>
-          <div>
-            <label for="email">Email:<span class="error"></span></label>
-            <input type="text" id="email" name="email" />
-          </div>
-          <div>
-            <label for="subject">Subject:<span class="error"></span></label>
-            <input type="text" id="subject" name="subject" />
-          </div>
-          <div>
-            <label for="message">Message:<span class="error"></span></label>
-            <textarea id="message" name="message"></textarea>
-          </div>
+      </div>
+      <div class="bottom-nav center-x" id="bottomNav">
+        <a class="contact-button" href="#">
+          <i class="fa-solid fa-message"></i>
+          <span class="link-name">Contact</span>
+        </a>
+        <a href="#about">
+          <i class="fa-solid fa-arrow-down primary-col"></i>
+          <span class="link-name primary-col">About</span>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-hand"></i>
+          <span class="link-name">Services</span>
+        </a>
+      </div>
+      <div class="top-nav" id="topNav">
+        <div class="logo">
+          <img src="assets/logo-reverie 1.png" alt="Reverie logo" />
+        </div>
+        <div class="links">
+          <a href="#top">Home</a>
+          <a href="#about">About</a>
+          <a>Services</a>
+          <a class="rounded-button-outline contact-button">Contact</a>
+        </div>
+        <div class="hamburger-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="mobile-links">
+        <div class="mobile-link">
+          <a href="#top">Home</a>
+        </div>
+        <div class="mobile-link">
+          <a href="#about">About</a>
+        </div>
+        <div class="mobile-link">
+          <a>Services</a>
+        </div>
+        <div class="mobile-link">
+          <a class="rounded-button-outline contact-button">Contact</a>
+        </div>
+      </div>
 
-          <input
-            class="center-x"
-            type="button"
-            value="Send"
-            onclick="submitForm(
+      <div id="contact-container">
+        <div id="contact-dialog" class="white-background">
+          <div>
+            <button id="close-button">
+              <i class="fa fa-times" style="color: #000000"></i>
+            </button>
+            <br />
+            <h1 class="center-text">Let's get talking!</h1>
+          </div>
+          <form>
+            <div>
+              <label for="email">Email:<span class="error"></span></label>
+              <input type="text" id="email" name="email" />
+            </div>
+            <div>
+              <label for="subject">Subject:<span class="error"></span></label>
+              <input type="text" id="subject" name="subject" />
+            </div>
+            <div>
+              <label for="message">Message:<span class="error"></span></label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+
+            <input
+              class="center-x"
+              type="button"
+              value="Send"
+              onclick="submitForm(
               document.getElementById('email').value, 
               document.getElementById('subject').value, 
               document.getElementById('message').value)"
-          />
-        </form>
-        <!-- Add your contact form here -->
-      </div>
-    </div>
-    <div class="page" id="about" data-bgcol="rgba(0, 0, 0, 0.3)">
-      <div id="profile">
-        <div class="column" data-aos="fade-left" data-aos-anchor="#profile">
-          <div id="profile-perspective">
-            <img src="assets/img.jpg" />
-          </div>
+            />
+          </form>
+          <!-- Add your contact form here -->
         </div>
-        <div class="column" data-aos="fade-right" data-aos-anchor="#profile">
-          <div id="profile-text">
-            <h1>Who am I?</h1>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              quae veritatis esse quo sit et enim, vitae eius, accusamus
-              voluptatem fugit, quia cum nesciunt tempore eveniet. Eius deleniti
-              commodi ea!
-            </p>
-            <div class="socials-bar">
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-youtube"></i>
-              <i class="fa-brands fa-linkedin"></i>
-              <i class="fa-brands fa-tiktok"></i>
+      </div>
+      <div class="page" id="about" data-bgcol="rgba(0, 0, 0, 0.3)">
+        <div id="profile">
+          <div class="column" data-aos="fade-left" data-aos-anchor="#profile">
+            <div id="profile-perspective">
+              <img src="assets/img.jpg" />
+            </div>
+          </div>
+          <div class="column" data-aos="fade-right" data-aos-anchor="#profile">
+            <div id="profile-text">
+              <h1>Who am I?</h1>
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                quae veritatis esse quo sit et enim, vitae eius, accusamus
+                voluptatem fugit, quia cum nesciunt tempore eveniet. Eius
+                deleniti commodi ea!
+              </p>
+              <div class="socials-bar">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-tiktok"></i>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="page" id="services" data-bgcol="rgba(0, 0, 0, 0.3)">
-      <div data-aos="fade-left" class="center-y">
-        <h1>Services</h1>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quae
-          veritatis esse quo sit et enim, vitae eius, accusamus voluptatem
-          fugit, quia cum nesciunt tempore eveniet. Eius deleniti commodi ea!
-        </p>
+      <div class="page" id="services" data-bgcol="rgba(0, 0, 0, 0.3)">
+        <div data-aos="fade-left" class="center-y">
+          <h1>Services</h1>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            quae veritatis esse quo sit et enim, vitae eius, accusamus
+            voluptatem fugit, quia cum nesciunt tempore eveniet. Eius deleniti
+            commodi ea!
+          </p>
+        </div>
       </div>
-    </div>
 
-    <script>
-      AOS.init();
-    </script>
+      <script>
+        AOS.init();
+      </script>
+    </div>
   </body>
 </html>
