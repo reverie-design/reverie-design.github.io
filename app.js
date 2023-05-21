@@ -211,7 +211,7 @@ function handleHamburgerClick() {
   });
 }
 // Initialize Functions on Load
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", () => {
   setupParallax();
   changeBackgroundColor();
   updateBackgroundTextAndLogoBlur();
