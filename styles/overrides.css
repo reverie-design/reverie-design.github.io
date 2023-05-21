@@ -7,6 +7,7 @@
   font-family: "Josefin Sans", sans-serif;
 }
 body {
+  background-color: black;
   overflow-x: hidden;
 }
 ::-webkit-scrollbar {
